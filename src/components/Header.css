@@ -1,0 +1,19 @@
+.ui.fixed.menu {
+    background-color: #4CAF50; /* Green background for the header */
+    position: fixed;
+    width: 100%; /* Ensure the menu takes the full width */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Make sure the header is on top */
+}
+
+.ui.container.center {
+    text-align: center;
+    display: grid;
+}
+
+h2 {
+    font-size: 2em; /* Increase the font size */
+    color: #fff; /* Set text color to white */
+  
+}
