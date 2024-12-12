@@ -1,10 +1,10 @@
-.ui.fixed.menu {
-    background-color: #4CAF50; /* Green background for the header */
+/* .ui.fixed.menu {
+    background-color: #4CAF50; 
     position: fixed;
-    width: 100%; /* Ensure the menu takes the full width */
+    width: 100%; 
     top: 0;
     left: 0;
-    z-index: 1000; /* Make sure the header is on top */
+    z-index: 1000; 
 }
 
 .ui.container.center {
@@ -13,7 +13,7 @@
 }
 
 h2 {
-    font-size: 2em; /* Increase the font size */
-    color: #fff; /* Set text color to white */
+    font-size: 2em;
+    color: #fff; 
   
-}
+} */

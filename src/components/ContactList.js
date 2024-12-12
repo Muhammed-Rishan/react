@@ -8,7 +8,8 @@ const ContactList = (props) => {
      };
     const renderContactList = props.contacts.map((contact) => {
         return(
-            <ContactCard contact={contact} clickHandler={deleteContactHandler} heading="Contact List"> </ContactCard>
+            <ContactCard contact={contact} 
+            clickHandler={deleteContactHandler} key = {contact.id} /> 
         )
     })
     return (
